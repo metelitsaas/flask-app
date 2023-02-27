@@ -1,6 +1,12 @@
-# flask-app-aws
+# flask-app
 
+Run:
 ```
-curl -v http://127.0.0.1:5000/api/v1/
-curl -v -u admin:admin http://127.0.0.1:5000/api/v1/test_data/
+uwsgi --ini app/uwsgi.ini --enable-threads
+```
+
+Test:
+```
+curl -v http://0.0.0.0:8000/api/v1/
+curl -v -u admin:admin http://0.0.0.0:8000/api/v1/test_data/
 ```

@@ -1,5 +1,5 @@
 from flask_httpauth import HTTPBasicAuth
-from app.api_1_0.errors import unauthorized, forbidden
+from api_1_0.errors import unauthorized, forbidden
 
 LOGIN = "admin"
 PASSWORD = "admin"

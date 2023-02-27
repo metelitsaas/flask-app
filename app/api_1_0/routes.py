@@ -1,6 +1,6 @@
 from flask import jsonify
-from app.api_1_0 import api
-from app.api_1_0.authentication import auth
+from api_1_0 import api
+from api_1_0.authentication import auth
 
 
 @api.route("/")
